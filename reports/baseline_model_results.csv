@@ -1,0 +1,9 @@
+Model,Features,Accuracy,Precision,Recall,F1-Score,CV Mean F1,CV Std F1,Model_Label
+Naive Bayes,Count Vectorizer,0.7424,0.7477,0.7424,0.7439,0.7353785157421542,0.0012903043683669402,"Naive Bayes
++ Count Vectorizer"
+Naive Bayes,TF-IDF,0.7195,0.7358,0.7195,0.7122,0.7045821447799432,0.0020845991525222088,"Naive Bayes
++ TF-IDF"
+Logistic Regression,Count Vectorizer,0.8574,0.8623,0.8574,0.8573,0.8495169243868446,0.002461692031654372,"Logistic Regression
++ Count Vectorizer"
+Logistic Regression,TF-IDF,0.8553,0.8641,0.8553,0.855,0.8479308909866499,0.001591439850970481,"Logistic Regression
++ TF-IDF"
