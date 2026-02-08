@@ -1,0 +1,27 @@
+﻿# Summary of LSTM Experiments
+# Team Member: [Your Name]
+# Model: LSTM with 3 Embedding Methods
+
+"""
+EXPERIMENT SUMMARY:
+1. Random Embeddings: 96.90% accuracy
+2. Word2Vec Skip-gram: 91.95% accuracy  
+3. Word2Vec CBOW: 91.58% accuracy
+
+CONCLUSIONS:
+- Random embeddings performed best due to task-specific training
+- Pre-trained Word2Vec embeddings captured general semantics but weren't optimal
+- All models achieved >90% accuracy, showing LSTM's effectiveness
+- Negative sentiment was hardest to classify across all methods
+
+FILES CREATED:
+1. lstm_step1.py to lstm_step11.py - Step-by-step implementation
+2. lstm_final_report.py - Results summary
+3. This summary file
+
+NEXT STEPS FOR TEAM:
+1. Compare with other models (SVM, RNN, GRU)
+2. Create unified results table
+3. Write academic report section
+"""
+print('Summary created. Ready for team collaboration.')
